@@ -1,0 +1,5 @@
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 60%; 
+      height: 70%; 
+  }

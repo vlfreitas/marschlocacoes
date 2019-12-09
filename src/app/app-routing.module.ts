@@ -2,6 +2,7 @@ import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { HomeComponent } from "./home/home.component";
 import { ContactComponent } from "./contact/contact.component";
+import { ConstructionComponent } from './construction/construction.component';
 
 const routes: Routes = [
   {
@@ -9,8 +10,12 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: "contact",
+    path: "contato",
     component: ContactComponent
+  },
+  {
+    path: "construcao",
+    component: ConstructionComponent
   }
 ];
 
@@ -19,4 +24,4 @@ const routes: Routes = [
   exports: [RouterModule],
   declarations: []
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
