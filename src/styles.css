@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+.dropcolor{
+    background-color: rgba(47, 23, 15, 0.9);
+    font-family: "Raleway";
+}
+
+.dropdown-item:hover{
+    color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(47, 23, 15, 0.9)!important;
+}

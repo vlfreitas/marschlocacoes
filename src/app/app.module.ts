@@ -6,11 +6,18 @@ import { AppComponent } from "./app.component";
 import { HomeComponent } from "./home/home.component";
 import { ContactComponent } from "./contact/contact.component";
 import { AppRoutingModule } from "./app-routing.module";
-import { ConstructionComponent } from './construction/construction.component';
-import { EventComponent } from './event/event.component';
+import { AndaimesComponent } from './construction/andaimes/andaimes.component';
+import { EscoramentoComponent } from './construction/escoramento/escoramento.component';
+import { BathroomComponent } from './construction/bathroom/bathroom.component';
+import { ContainerComponent } from './construction/container/container.component';
+import { TentComponent } from './event/tent/tent.component';
+import { StageComponent } from './event/stage/stage.component';
+import { LuxuryBathroomComponent } from './event/luxurybathroom/luxurybathroom.component';
+import { HotelComponent } from './projects/hotel/hotel.component';
+import { ColdchamberComponent } from './projects/coldchamber/coldchamber.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, ContactComponent, ConstructionComponent, EventComponent],
+  declarations: [AppComponent, HomeComponent, ContactComponent, AndaimesComponent, EscoramentoComponent, BathroomComponent, ContainerComponent, TentComponent, StageComponent, LuxuryBathroomComponent, HotelComponent, ColdchamberComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [{ provide: APP_BASE_HREF, useValue: "/" }],
   bootstrap: [AppComponent]
