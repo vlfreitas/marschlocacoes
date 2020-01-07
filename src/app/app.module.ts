@@ -8,7 +8,7 @@ import { ContactComponent } from "./contact/contact.component";
 import { AppRoutingModule } from "./app-routing.module";
 import { AndaimesComponent } from './construction/andaimes/andaimes.component';
 import { EscoramentoComponent } from './construction/escoramento/escoramento.component';
-import { BathroomComponent } from './construction/bathroom/bathroom.component';
+import { BathroomComponent } from './construction/banheiros/banheiros.component';
 import { ContainerComponent } from './construction/container/container.component';
 import { TentComponent } from './event/tent/tent.component';
 import { StageComponent } from './event/stage/stage.component';

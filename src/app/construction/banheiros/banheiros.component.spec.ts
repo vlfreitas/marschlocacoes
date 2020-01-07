@@ -8,9 +8,9 @@ describe('BathroomComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BathroomComponent ]
+      declarations: [BathroomComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
