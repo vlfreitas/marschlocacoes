@@ -15,10 +15,11 @@ import { StageComponent } from './event/stage/stage.component';
 import { LuxuryBathroomComponent } from './event/luxurybathroom/luxurybathroom.component';
 import { HotelComponent } from './projects/hotel/hotel.component';
 import { ColdchamberComponent } from './projects/coldchamber/coldchamber.component';
+import { LightboxModule } from 'ngx-lightbox';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, ContactComponent, AndaimesComponent, EscoramentoComponent, BathroomComponent, ContainerComponent, TentComponent, StageComponent, LuxuryBathroomComponent, HotelComponent, ColdchamberComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, LightboxModule],
   providers: [{ provide: APP_BASE_HREF, useValue: "/" }],
   bootstrap: [AppComponent]
 })
