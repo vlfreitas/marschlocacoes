@@ -6,8 +6,6 @@ import { EscoramentoComponent } from './construction/escoramento/escoramento.com
 import { AndaimesComponent } from './construction/andaimes/andaimes.component';
 import { BathroomComponent } from './construction/banheiros/banheiros.component';
 import { ContainerComponent } from './construction/container/container.component';
-import { StageComponent } from './event/stage/stage.component';
-import { TentComponent } from './event/tent/tent.component';
 import { LuxuryBathroomComponent } from './event/luxurybathroom/luxurybathroom.component';
 import { ColdchamberComponent } from './projects/coldchamber/coldchamber.component';
 import { HotelComponent } from './projects/hotel/hotel.component';
@@ -39,26 +37,22 @@ const routes: Routes = [
 
   //Events
   {
-    path: "palcos",
-    component: StageComponent
-  },
-  {
     path: "banheirosluxo",
     component: LuxuryBathroomComponent
-  },
-  {
-    path: "tendas",
-    component: TentComponent
   },
 
   //Projects
   {
-    path: "camara",
+    path: "camarafria",
     component: ColdchamberComponent
   },
   {
     path: "hotel",
     component: HotelComponent
+  },
+  {
+    path: "camaradescontaminacao",
+    component: ColdchamberComponent
   },
 
   //Contact

@@ -21,9 +21,11 @@
             "aot": false,
             "assets": [
               "src/assets",
-              "src/assets/img/logo.jpg"
+              "src/favicon.ico"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-lightbox/lightbox.css",
               "src/styles.css"
             ],
             "scripts": []

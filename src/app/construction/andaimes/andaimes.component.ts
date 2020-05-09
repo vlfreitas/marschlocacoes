@@ -11,13 +11,13 @@ export class AndaimesComponent implements OnInit {
 
   private _albums: Array<any> = [];
   constructor(private _lightbox: Lightbox) {
-    for (let i = 1; i <= 2; i++) {
+    for (let i = 1; i <= 1; i++) {
       const src = '../assets/img/construcao/andaimes/andaime' + i + '.jpg';
-      // const caption = 'Image ' + i + ' caption here';
-      const thumb = '../assets/img/construcao/andaimes/thumb/andaime' + 1 + '-thumb.jpg';
+      const caption = 'Imagem ' + i + ' de 1';
+      const thumb = '../assets/img/construcao/andaimes/thumb/andaime' + i + '-thumb.jpg';
       const album = {
         src: src,
-        // caption: caption,
+        caption: caption,
         thumb: thumb
       };
 
