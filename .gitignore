@@ -43,3 +43,9 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Project
+node_modules
+build
+npm-debug.log
+.env
