@@ -9,7 +9,7 @@ import { Lightbox } from 'ngx-lightbox';
 })
 export class AndaimesComponent implements OnInit {
 
-  private _albums: Array<any> = [];
+   _albums: Array<any> = [];
   constructor(private _lightbox: Lightbox) {
     for (let i = 1; i <= 1; i++) {
       const src = '../assets/img/construcao/andaimes/andaime' + i + '.jpg';

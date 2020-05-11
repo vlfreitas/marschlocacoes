@@ -8,7 +8,7 @@ import { Lightbox } from 'ngx-lightbox';
   styleUrls: ['./escoramento.component.css']
 })
 export class EscoramentoComponent implements OnInit {
-  private _albums: Array<any> = [];
+  _albums: Array<any> = [];
   constructor(private _lightbox: Lightbox) {
     for (let i = 1; i <= 10; i++) {
       const src = '../assets/img/construcao/escoramento/escoramento' + i + '.jpg';
