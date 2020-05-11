@@ -48,4 +48,4 @@ Thumbs.db
 node_modules
 build
 npm-debug.log
-.env
+.envnpm-debug.log
