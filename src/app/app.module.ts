@@ -14,9 +14,10 @@ import { LuxuryBathroomComponent } from './event/luxurybathroom/luxurybathroom.c
 import { HotelComponent } from './projects/hotel/hotel.component';
 import { ColdchamberComponent } from './projects/coldchamber/coldchamber.component';
 import { LightboxModule } from 'ngx-lightbox';
+import { DescontaminacaoComponent } from './projects/descontaminacao/descontaminacao.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, ContactComponent, AndaimesComponent, EscoramentoComponent, BathroomComponent, ContainerComponent, LuxuryBathroomComponent, HotelComponent, ColdchamberComponent],
+  declarations: [AppComponent, HomeComponent, ContactComponent, AndaimesComponent, EscoramentoComponent, BathroomComponent, ContainerComponent, LuxuryBathroomComponent, HotelComponent, ColdchamberComponent, DescontaminacaoComponent],
   imports: [BrowserModule, AppRoutingModule, LightboxModule],
   providers: [{ provide: APP_BASE_HREF, useValue: "/" }],
   bootstrap: [AppComponent]

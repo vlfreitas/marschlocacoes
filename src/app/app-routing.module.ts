@@ -9,6 +9,7 @@ import { ContainerComponent } from './construction/container/container.component
 import { LuxuryBathroomComponent } from './event/luxurybathroom/luxurybathroom.component';
 import { ColdchamberComponent } from './projects/coldchamber/coldchamber.component';
 import { HotelComponent } from './projects/hotel/hotel.component';
+import { DescontaminacaoComponent } from './projects/descontaminacao/descontaminacao.component';
 
 const routes: Routes = [
   //Home
@@ -51,8 +52,8 @@ const routes: Routes = [
     component: HotelComponent
   },
   {
-    path: "camaradescontaminacao",
-    component: ColdchamberComponent
+    path: "descontaminacao",
+    component: DescontaminacaoComponent
   },
 
   //Contact
